@@ -1,57 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>full-page</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Pacifico' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
-	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
-	<link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css">
-	<link rel="stylesheet" href="style.css">
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
-	<script src="script.js"></script>
-</head>
-<body>
-	<div id="wrapper">
-	<div class="logo"><img src="img/logo.png" alt="logo"></div>
-		<div class="right-bar">
-			<ul id="menu">
-				<li data-menuanchor="firstPage">
-					<a href="#firstPage"><i class="icon-user"></i><div class="text-caption">Kevin Parker</div></a>
-				</li>
-				<li data-menuanchor="secondPage">
-					<a href="#secondPage"><i class="icon-diamond"></i><div class="text-caption">Unreal diamond</div></a>
-				</li>
-				<li data-menuanchor="3rdPage">
-					<a href="#3rdPage"><i class="icon-drop"></i><div class="text-caption">Drop</div></a>
-				</li>
-				<li data-menuanchor="4thpage">
-					<a href="#4thpage"><i class="icon-fire"></i><div class="text-caption">Fire</div></a>
-				</li>
-			</ul>
+	<head>
+		<meta charset="UTF-8">
+		<title>full-page</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Pacifico' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.3/css/simple-line-icons.css">
+		<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+		<link rel="stylesheet" href="bower_components/fullpage.js/jquery.fullPage.css">
+		<link rel="stylesheet" href="style.css">
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div class="logo"><img src="img/logo.png" alt="logo"></div>
+			<div class="right-bar">
+				<ul id="menu">
+					<li data-menuanchor="firstPage">
+						<a href="#firstPage"><i class="icon-user"></i><div class="text-caption">Kevin Parker</div></a>
+					</li>
+					<li data-menuanchor="secondPage">
+						<a href="#secondPage"><i class="icon-disc"></i><div class="text-caption">Discography</div></a>
+					</li>
+					<li data-menuanchor="3rdPage">
+						<a href="#3rdPage"><i class="icon-drop"></i><div class="text-caption">Drop</div></a>
+					</li>
+					<li data-menuanchor="4thpage">
+						<a href="#4thpage"><i class="icon-fire"></i><div class="text-caption">Fire</div></a>
+					</li>
+				</ul>
+			</div>
+			<div id="fullpage">
+				<div class="section" id="section0">
+					<div class="persone">
+						<div class="title">Hello, I am Kevin Parker</div>
+						<div class="avatar"><img src="img/avatar.jpg" alt="avatar"></div>
+						<div class="description">Tame Impala</div>
+						<div class="text">Кевин Паркер (Kevin Parker, полное имя — Kevin Richard Parker) — австралийский музыкант с африканскими корнями, получивший наибольшую известность благодаря своему проекту 'Tame Impala', а также выступающий в ряде других австралийских групп: 'Pond', 'Mink Mussel Creek', 'Melody's Echo Chamber', 'Relation Longue Distance', 'The Dee Dee Dums', 'Space Lime Peacock' и многих других.</div>
+						<a href="#" class="button"><span>click me</span></a>
+					</div>
+				</div>
+				<div class="section" id="section1">
+					<div class="slide">
+						<div class="title-inset">Album</div>
+						<div class="album">
+							<div class="foto-album"><img src="img/tame-impala-currents.jpg" alt="avatar"></div>
+							<div class="wrapper-text">
+								<div class="description">Currents</div>
+								<div class="text">Третий студийный альбом австралийской рок-группы Tame Impala, изданный 17 июля 2015 года на лейблах Modular (AUS), Universal, (AUS) Fiction (UK/EU), Interscope (US).</div>
+								<div class="text">
+								Лучший альбом 2015 года в Австралии. 7 декабря 2015 года был номинирован на премию Грэмми-2016 в категории Лучший альтернативный альбом.</div>
+								<a href="#" class="button"><span>click me</span></a>
+							</div>
+						</div>
+					</div>
+					<div class="slide">
+							<div class="title-inset">Album</div>
+							<div class="album">
+								<div class="foto-album"><img src="img/A1gRVIbpyHL._SL1500_.jpg" alt="avatar"></div>
+								<div class="wrapper-text">
+									<div class="description">Lonerism</div>
+									<div class="text">Второй студийный альбом австралийской психоделической рок-группы Tame Impala, изданный 5 октября 2012 года на лейблах Modular (AUS). Лучший альбом 2012 года в Австралии.</div>
+									<div class="text">6 декабря 2013 года был номинирован на премию Грэмми-2014 в категории Лучший альтернативный альбом.</div>
+									<a href="#" class="button"><span>click me</span></a>
+								</div>
+							</div>
+					</div>
+					<div class="slide">
+						<div class="title-inset">Album</div>
+						<div class="album">
+							<div class="foto-album"><img src="img/Innerspeaker-Limited-Edition-cover.jpg" alt="avatar"></div>
+							<div class="wrapper-text">
+								<div class="description">Innerspeaker</div>
+								<div class="text">Дебютный альбом группы Innerspeaker, выпущенный в мае 2010 года, получил высокие оценки критиков и занял четвёртое место в австралийском хит-параде. </div>
+								<div class="text">В том же году Tame Impala были номинированы на премию ARIA Awards в шести категориях.</div>
+								<a href="#" class="button"><span>click me</span></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section" id="section2">
+				</div>
+				<div class="section" id="section3">
+				</div>
+			</div>
 		</div>
-		<div id="fullpage">
-			<div class="section" id="section0">
-				<div class="persone">
-				<div class="title">Hello, I am Kevin Parker</div>
-					<div class="avatar"><img src="img/avatar.jpg" alt="avatar"></div>
-					<div class="description">Tame Impala</div>
-					<div class="text">Кевин Паркер (Kevin Parker, полное имя — Kevin Richard Parker) — австралийский музыкант с африканскими корнями, получивший наибольшую известность благодаря своему проекту 'Tame Impala', а также выступающий в ряде других австралийских групп: 'Pond', 'Mink Mussel Creek', 'Melody's Echo Chamber', 'Relation Longue Distance', 'The Dee Dee Dums', 'Space Lime Peacock' и многих других.</div>
-					<a href="#" class="button"><span>click me</span></a>
-				</div>	
-			</div>
-			<div class="section" id="section1">
-
-			</div>
-			<div class="section" id="section2">
-
-			</div>
-			<div class="section" id="section3">
-
-			</div>
-		</div>
-	</div>
-</body>
+	</body>
 </html>
-
