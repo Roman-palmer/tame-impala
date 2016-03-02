@@ -1,0 +1,41 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+.lol {
+  width: 100%;
+ 
+}
+.pipe {
+  color: #fff;
+  padding-right: 50px;
+}
+
+#menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+
+#menu li{
+
+}
+
+#menu li a{
+
+}
+
+#fullpage{
+
+}
+
+#fullpage section{
+	
+}
+
+.right-bar{
+	position: fixed;
+	background: rgba(255,255,255,0.5);
+}
